@@ -10,7 +10,7 @@ An attempt in creating an AI that will be able to think for its self and make de
 The AI code will use a dictionary to determine whether a action is good or bad in the human world. If the AI chooses to mark good items as bad and bad items as good then it will for example see that murdering people is good and other situations. However the AI can be convinced that those items are bad by the manual user input (talking to the AI) and consequences such as prison/warnings and other things.
 
 - Trauma System
-The AI code will take in the backstory or basic background information of the location of the AI as if it were a living being. Every evolution (year) until its 18th birthday will enable the trauma system at max value, 
+The AI code will take in the backstory or basic background information of the location of the AI as if it were a living being. Every evolution (year) until its 18th birthday will enable the trauma system probabilty to greatly effect the AI as a child could do very little in handeling serious issues unless the AI is overdeveloped.
 
 - User inputs
 The AI code will allow for text inputs of the user. The AI will run the string of text and check each word for important items, such as verbs, subjects and many other componenets in an English sentence.
@@ -20,7 +20,14 @@ If you write "You are ugly", the AI will check the status of the self-esteem and
 
 At times the AI will actually not say anything as some things may not require a response and instead the AI will change its face on the print system from a happy face to a sade face or something of that similatiry depending on the severity on how hard the insult had hurt the AI.
 
-Output: *Sad face
+Output: *Sad face*
+
+If you write "You're beautiful you know, deep inside, you're a great person", the AI would improve on its self-esteem, confidence and level of friendliness towards you.
+
+Output: *Happy Face* - "Thanks, you're not so bad yourself today."
+
+A little note:
+Current helpers like Siri, Cortana, etc do not exactly keep context of the past things said and that means that they cannot hold a conversation, thats why this time the AI will use an auto generating array that is filled with vital information such as the AI's reaction to item.
 
 - Status
 The AI will have a status for everything, from financial status to the quality of life, relationships and many more.
